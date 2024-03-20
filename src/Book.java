@@ -1,8 +1,8 @@
 import java.time.LocalDate;
 
 public class Book {
-    private String title;
-    private Author author;
+    private final String title;
+    private final Author author;
     public int publishYear;
     public Book(String title, Author author, int publishYear) {
         this.title = title;
